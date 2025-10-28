@@ -3,7 +3,7 @@
 
 ⚙️ Implementation Steps
 
-Data Collection
+**1.Data Collection**
 
 Data was fetched using open APIs like:
 
@@ -15,7 +15,7 @@ News API: To collect the latest headlines and market news related to each compan
 
 These datasets were combined into structured CSV files (company_trends.csv, company_wikipedia.csv, company_news.csv).
 
-2.Data Preprocessing
+**2.Data Preprocessing**
 
 Cleaned the data by handling null values, removing duplicates, and parsing timestamps.
 
@@ -23,7 +23,7 @@ Transformed text data (e.g., news titles and summaries) into a usable format for
 
 Converted search trend indices into a time-series dataframe for visualization.
 
-3.Data Visualization
+**3.Data Visualization**
 
 Created line charts to visualize Google search trends over time.
 
@@ -33,7 +33,7 @@ Used word clouds to display the most frequent terms from company-related news ar
 
 Visualized sentiment distribution using color-coded bar charts.
 
-4.Insights
+**4.Insights**
 
 Tata Motors showed spikes in trend data due to new EV announcements.
 
@@ -41,7 +41,7 @@ Reliance Industries maintained consistent public interest driven by retail and t
 
 Wipro trends correlated with IT service demand and quarterly result announcements.
 
-Tools & Technologies
+**5.Tools & Technologies**
 
 Google Colab for execution and visualization.
 
