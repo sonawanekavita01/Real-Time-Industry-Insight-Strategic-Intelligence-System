@@ -92,8 +92,3 @@ The dashboard helps visualize **public perception, market activity, and search t
 
 
 ⭐ *If you like this project, give it a star on GitHub!* ⭐
-
-```
-
-
-
