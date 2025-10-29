@@ -1,5 +1,3 @@
-# Real-Time-Industry-Insight-Strategic-Intelligence-System
-
 # 📊 Real-Time Industry Insight & Strategic Intelligence System
 
 ## 🧠 Project Overview
