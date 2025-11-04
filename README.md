@@ -1,92 +1,100 @@
-# 📊 Real-Time Industry Insight & Strategic Intelligence System
 
-## 🧠 Project Overview
-The **Real-Time Industry Insight & Strategic Intelligence System** is a data analytics project designed to collect, preprocess, and visualize **real-time company insights** using open-source APIs and web data.  
-The project focuses on three major Indian companies:
-- 🚗 **Tata Motors** (Automobile)
-- ⚡ **Reliance Industries** (Energy & Retail)
-- 💻 **Wipro** (Consulting & Technology)
-
-It provides valuable market and public-interest trends using data from **Google Trends**, **Wikipedia**, and **News APIs**, visualized through dynamic charts and word clouds in **Google Colab**.
+# 🧠 AI-Powered Company Insight Dashboard  
+### 🚀 Milestone 1 – Data Collection & Insight Visualization
 
 ---
 
-## ⚙️ Features
-✅ Fetch real-time company data from:
-- **Google Trends API** – to track search popularity.  
-- **Wikipedia API** – to gather company summaries and background information.  
-- **News API** – to extract the latest business news headlines.
-
-✅ Preprocess and clean raw data into structured CSV files.  
-✅ Visualize industry insights through:
-- Line charts (interest over time)
-- Bar graphs and pie charts (comparative analysis)
-- Word clouds (news keyword highlights)
-- Sentiment visualization
+## 📘 **Project Overview**
+The **AI-Powered Company Insight Dashboard** aims to collect, analyze, and visualize real-time insights about leading companies using multiple data sources.  
+In this milestone, we focused on **data gathering, sentiment analysis, and interactive visualizations** to establish the foundation for intelligent company analysis.
 
 ---
 
-## 🧩 Tech Stack
-| Component | Tools / Libraries |
-|------------|------------------|
-| **Platform** | Google Colab |
-| **Languages** | Python |
-| **APIs** | Google Trends, Wikipedia, NewsAPI |
-| **Libraries** | pandas, matplotlib, seaborn, pytrends, requests, wordcloud |
+## 🎯 **Objective**
+To build an automated system that:
+- Fetches company-related information from APIs (Wikipedia, NewsAPI, Alpha Vantage).  
+- Analyzes recent news to determine **market sentiment**.  
+- Visualizes trends, news, and stock performance interactively using **Plotly** and **Matplotlib**.  
 
 ---
 
-## 🗂️ Project Structure
-```
+## 🧩 **Milestone 1 Deliverables**
+### ✅ Completed Tasks:
+1. **Wikipedia Data Collection:**  
+   Retrieved company background information programmatically.
 
-📦 Real_Time_Industry_Insight_&*Strategic_Intelligence_System
+2. **Simulated Google Trends Visualization:**  
+   Created a mock 90-day trend chart showing search interest fluctuations.
+
+3. **News Data Extraction (NewsAPI):**  
+   Fetched and processed recent news headlines for multiple companies.
+
+4. **Sentiment Analysis (TextBlob):**  
+   Classified news headlines into *Positive*, *Negative*, and *Neutral* sentiments.
+
+5. **Stock Price Analysis (Alpha Vantage):**  
+   Visualized daily stock performance to show recent trends.
+
+6. **Interactive Dashboard:**  
+   Developed interactive bar, pie, and line charts for sentiment and trend analysis.
+
+---
+
+## 📊 **Key Insights**
+- Combined **quantitative (stock)** and **qualitative (sentiment)** data for holistic company evaluation.  
+- Identified patterns between public sentiment and company activity.  
+- Set up a modular and scalable structure for future milestones (automation & real-time tracking).
+
+---
+
+## 🧠 **Tech Stack**
+| Category | Tools / Libraries |
+|-----------|------------------|
+| **Programming Language** | Python |
+| **APIs Used** | Wikipedia, NewsAPI, Alpha Vantage |
+| **Libraries** | Pandas, NumPy, Plotly, Matplotlib, TextBlob |
+| **Environment** | Google Colab / Jupyter Notebook |
+
+---
+
+## 📂 **Project Structure**
+
+---
+📁 AI-Company-Insight-Dashboard/
+
 │
-├── company_trends.csv              # Google Trends data
-├── company_wikipedia.csv           # Wikipedia company summaries
-├── company_news.csv                # Company news data
-├── Real_Time_Industry_Insight*&_Strategic_Intelligence_System.ipynb  # Main Google Colab notebook
-└── README.md                       # Project documentation
+├── 📄 Milestone1_Project.ipynb     # Full milestone 1 notebook
+
+├── 📄 README.md                    # Project overview & documentation
+
+├── 📄 requirements.txt             # Dependencies list
+
+└── 📊 data/                        # Sample or API fetched data files
 
 
 ---
 
-## 🚀 How to Run in Google Colab
-1. Open the `.ipynb` file in **Google Colab**.
-2. Install required dependencies:
-   ```python
-   !pip install pytrends pandas matplotlib seaborn wordcloud requests
-````
+## 🏁 **Milestone 1 Summary**
+Milestone 1 successfully established:
+- The **data collection pipeline**  
+- The **sentiment analysis model**  
+- The **interactive visual dashboards**
 
-3. Run each cell step-by-step.
-4. The project will automatically:
-
-   * Fetch live company data.
-   * Preprocess and save datasets.
-   * Display visualizations (graphs/charts/wordclouds).
+This milestone forms the **foundation** for further AI-driven analytics, including automated updates, deeper NLP sentiment models, and predictive company performance tracking.
 
 ---
 
-## 📈 Results
-
-* **Tata Motors** showed rising trends linked to new EV announcements.
-* **Reliance Industries** maintained consistent engagement due to retail and telecom growth.
-* **Wipro** displayed interest spikes during quarterly IT service results.
-
-The dashboard helps visualize **public perception, market activity, and search trends** in real time.
+## 🚧 **Next Steps (Milestone 2 Preview)**
+- Integrate **real Google Trends API data**.  
+- Implement **advanced NLP models (BERT / VADER)** for better sentiment accuracy.  
+- Add **automated daily update scheduling**.  
+- Expand visualization dashboard with more KPIs and metrics.
 
 ---
 
-## 📄 Future Enhancements
-
-* Integrate **Twitter API** for social sentiment analysis.
-* Deploy a **real-time dashboard** using Streamlit or Power BI.
-* Automate daily trend tracking and report generation.
+## 👩‍💻 **Developed By**
+**Kavita Uttam Sonawane**  
 
 ---
 
-## 👩‍💻 Author
-
-**Kavita Sonawane**
-
-
-⭐ *If you like this project, give it a star on GitHub!* ⭐
+⭐ *If you find this project helpful, don’t forget to star the repo!*
